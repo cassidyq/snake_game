@@ -22,6 +22,9 @@ const handleUserInput = (key) => {
   if (key === 's') {
     connection.write('Move: down');
   }
+  if (key === 'f') {
+    connection.write('Say: ssssssssssss!!');
+  }
   if (key === '\u0003') {
     console.log('Thanks for playing!');
     process.exit();
